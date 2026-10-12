@@ -1,0 +1,15 @@
+# R package requirements for the Time Series Analysis notebooks.
+# This file is for documentation; do NOT run `pip install -r requirements.txt`.
+# Install the packages in an R session using requirements.R or the notebook setup cells.
+
+astsa
+xts
+dynlm
+zoo
+fGarch
+tseries
+arfima
+
+# R's standard packages (stats, graphics, grDevices, utils) are bundled with R.
+# tsDyn is not required for the uploaded Chapter 08 notebook: its threshold
+# autoregression implementation uses base R instead.
